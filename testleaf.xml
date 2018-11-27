@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestLeafSuite" parallel="classes">
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="testcases.Tc001_LoginAndLogout"/>
+      <class name="testcases.Tc002_CreateLead"/>
+      <class name="testcases.Tc005_EditLead"/>
+      <class name="testcases.Tc006_DeleteLead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- TestLeafSuite -->

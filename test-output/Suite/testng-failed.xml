@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]">
+  <parameter name="password" value="crmsfa"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://leaftaps.com/opentaps"/>
+  <parameter name="username" value="DemoSalesManager"/>
+  <test thread-count="5" verbose="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.Tc002_CreateLead2">
+        <methods>
+          <include name="close"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="login"/>
+          <include name="beforeSuite"/>
+          <include name="createLead"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.Tc002_CreateLead2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
